@@ -1,0 +1,29 @@
+:root {
+    --orange: #FF4F04;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+body {
+    line-height: 1.6;
+    font-family: "Roboto";
+    font-size: 1.6rem;
+}
+.error_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3e3e;
+    height: 100vh;
+    border: 0.3rem solid var(--orange);
+}
+
+.wrong {
+    color: var(--orange);
+    font-size: 10rem;
+}

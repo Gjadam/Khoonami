@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url("../fonts/Roboto/Heebo/Heebo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Heebo Medium";
+    src: url("../fonts/Roboto/Heebo/Heebo-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Roboto/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url("../fonts/Roboto/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
