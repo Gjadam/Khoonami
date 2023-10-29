@@ -1,6 +1,6 @@
 let $ = document;
 let navBtn = $.querySelector('.nav__btn')
-let mobileMenu = $.querySelector('.nav-menu ')
+let mobileMenu = $.querySelector('.nav-menu')
 let menuItems = $.querySelectorAll('.menu__item')
 let menuMobileItems = $.querySelectorAll('.mobile-menu__item')
 let flag = true
@@ -26,5 +26,7 @@ menuItems.forEach(item => {
 menuMobileItems.forEach(item => {
     item.addEventListener('click', () => {
         scrollTo(0, 570)
+        navBtn.classList.remove('nav__btn--open')
+        mobileMenu.style.left = '-22rem'
     })
 })
